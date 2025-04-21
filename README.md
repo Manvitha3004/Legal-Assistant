@@ -45,29 +45,22 @@ The architecture of LawGPT includes the following components:
 - [Google Generative AI](https://github.com/google-research/google-research/tree/master/large-scale-causal-ml)
 - [FAISS](https://github.com/facebookresearch/faiss)
 
-### Installation Steps
 
-1. **Clone the Repository**
 
-```bash
-   git clone https://github.com/yourusername/lawgpt.git
-   cd lawgpt
-```
-
-2.  **Set Up and Activate Virtual Environment**
+1.  **Set Up and Activate Virtual Environment**
 
 ```bash
     conda create -p venv python==3.12
     conda activate C:\directory\venv
 ```
 
-3. **Install Dependencies**
+2. **Install Dependencies**
 
 ```bash
     pip install -r requirements.txt
 ```
 
-4. **Set Up Environment Variables**
+3. **Set Up Environment Variables**
 
 Create a .env file in the project root directory and add your API keys:
 ```bash
@@ -75,7 +68,7 @@ Create a .env file in the project root directory and add your API keys:
     GROQ_API_KEY=your_groq_api_key
 ```
 
-5. **Split, Embed and Save Documents**
+4. **Split, Embed and Save Documents**
 
 Run the following script to load, split, embed, and save your legal documents:
 ```bash
