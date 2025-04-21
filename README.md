@@ -11,11 +11,6 @@ LawGPT is a Large Language Model (LLM) based chatbot designed to provide legal i
 - [Architecture](#architecture)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Deployed Website](#deployed-website)
-
-## Demo Video
-
-https://github.com/itsmesneha/Legal-CHATBOT/assets/87040207/83741dc0-1b0f-43b6-a13e-c35046b831e0
 
 ## Introduction
 
@@ -93,11 +88,5 @@ Run the Streamlit Application
 ```bash
 streamlit run app.py
 ```
-## Deployed Website
-
-LawGPT is also deployed on Streamlit Cloud. You can access the chatbot directly via the following link:
-
-[https://legal-chatbot-llm.streamlit.app/](https://legal-chatbot-llm.streamlit.app/)
-
 
 
